@@ -1,23 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ComponentA from './components/componentA';
+import ComponentB from './components/componentB';
+import Bai1 from './components/counter';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Bai1></Bai1>
+        <ComponentA></ComponentA>
+        <ComponentB></ComponentB>
       </header>
     </div>
   );
